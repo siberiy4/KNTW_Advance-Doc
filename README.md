@@ -19,12 +19,12 @@ Fastは上限が100Mbps、Gigabitは上限が1Gbpsで通信する。
 - スイッチングハブ
     MACアドレスを見てパケットを流してくれる
 
-[computer_hub_loop_setsuzoku.png]
+[](computer_hub_loop_setsuzoku.png)
 
 - ルータ  
     ネットワークの中継器。IPを見てパケットを流すなど、ルーティングプロトコルが扱える。
 
-[computer_wireless.png]
+[](computer_wireless.png)
 
 #### ケーブル
 - 遠距離通信を支える光ファイバ。  
