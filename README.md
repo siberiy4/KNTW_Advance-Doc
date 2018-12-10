@@ -1,19 +1,30 @@
-## 事前配布資料
+# 事前配布資料  
 
-WAN と LAN とは
-
+#### LAN とは  
+同じ建物の中や、一つの家庭などの限定された範囲で接続できるネットワークのこと。
+  
+#### WAN とは  
+遠く離れた場所と場所がつながったネットワーク。
+簡単に言えば、LANとLANをつなぐ。
+  
 ### ネットワークを構成するもの
 
 - ルータや、L2ハブ、サーバなどの機器
 - UTPケーブルや光ファイバなどのケーブル
 
 #### 機器
-Giと Fa が
+今回使う機材にはGigabit Ethernet(GiGと書かれたものなど)のポートと Fast Ethernet(FEと書かれたものなど)のポートが存在する。  
+Fastは上限が100Mbps、Gigabitは上限が1Gbpsで通信する。
+
 - スイッチングハブ
-    [L2とL3のスイッチが存在する](https://www.cisco.com/c/m/ja_jp/products/switches/lan-switches.html#~stickynav=1)
+    MACアドレスを見てパケットを流してくれる
+
+[computer_hub_loop_setsuzoku.png]
 
 - ルータ  
-    ネットワークの中継器。ルーティングプロトコルが扱える。
+    ネットワークの中継器。IPを見てパケットを流すなど、ルーティングプロトコルが扱える。
+
+[computer_wireless.png]
 
 #### ケーブル
 - 遠距離通信を支える光ファイバ。  
